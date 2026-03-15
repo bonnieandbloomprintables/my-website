@@ -5,119 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bonnie & Bloom Printables</title>
 
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Soft & stylish printables for home, office, and parties — album posters, weekly planners, birthday invitations.">
+  <meta name="keywords" content="printables, album posters, weekly planner, birthday invitations, printable wall art, printable templates">
+  <meta property="og:title" content="Bonnie & Bloom Printables">
+  <meta property="og:description" content="Soft & stylish printables for home, office, and parties.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bonnieandbloomprintables.com/">
+  <meta property="og:image" content="images/hero-bg.jpg">
+
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SL5S3QJK2K"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-SL5S3QJK2K');
 </script>
 
   <style>
     html { scroll-padding-top: 120px; }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff;
-      color: #333;
-    }
-
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #fff; color: #333; }
     a { text-decoration: none; color: inherit; transition: color 0.3s; }
-
-    header {
-      position: sticky;
-      top: 0;
-      background-color: #fff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      padding: 20px 0;
-      z-index: 100;
-      text-align: center;
-    }
-
-    nav a {
-      margin: 0 20px;
-      font-weight: bold;
-      font-size: 1.1em;
-    }
-
+    header { position: sticky; top: 0; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.05); padding: 20px 0; z-index: 100; text-align: center; }
+    nav a { margin: 0 20px; font-weight: bold; font-size: 1.1em; }
     nav a:hover { color: #d36d81; }
-
-    .hero {
-      background-color: #fce4ec;
-      background-image: url('images/hero-bg.jpg');
-      background-size: cover;
-      background-position: center;
-      text-align: center;
-      padding: 100px 20px;
-      color: #d36d81;
-    }
-
+    .hero { background-color: #fce4ec; background-image: url('images/hero-bg.jpg'); background-size: cover; background-position: center; text-align: center; padding: 100px 20px; color: #d36d81; }
     .hero h1 { font-size: 3em; margin-bottom: 15px; }
-
     .hero p { font-size: 1.2em; max-width: 700px; margin: 0 auto; }
-
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      padding: 50px 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .product {
-      background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.3s, box-shadow 0.3s;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
+    .hero .pinterest-btn { display: inline-block; margin-top: 15px; padding: 10px 15px; background-color: #bd081c; color: #fff; border-radius: 8px; font-weight: bold; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; padding: 50px 20px; max-width: 1200px; margin: 0 auto; }
+    .product { background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; display: flex; flex-direction: column; justify-content: space-between; }
     .product img { width: 100%; display: block; }
-
     .product-content { padding: 20px; flex: 1; }
-
     .product h3 { margin-top: 0; margin-bottom: 10px; color: #d36d81; }
-
     .product p { margin-bottom: 15px; color: #555; font-size: 0.95em; }
-
-    .product a {
-      display: inline-block;
-      padding: 10px 15px;
-      background-color: #d36d81;
-      color: #fff;
-      border-radius: 8px;
-      font-weight: bold;
-      text-align: center;
-    }
-
+    .product a { display: inline-block; padding: 10px 15px; background-color: #d36d81; color: #fff; border-radius: 8px; font-weight: bold; text-align: center; }
     .product a:hover { background-color: #c0556d; }
-
-    .product:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    }
-
-    footer {
-      background-color: #fce4ec;
-      color: #d36d81;
-      text-align: center;
-      padding: 20px 0;
-      margin-top: 50px;
-      font-weight: bold;
-    }
-
-    @media (max-width: 500px) {
-      .hero h1 { font-size: 2em; }
-      nav a { margin: 0 10px; font-size: 1em; }
-    }
+    .product:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+    footer { background-color: #fce4ec; color: #d36d81; text-align: center; padding: 20px 0; margin-top: 50px; font-weight: bold; }
+    @media (max-width: 500px) { .hero h1 { font-size: 2em; } nav a { margin: 0 10px; font-size: 1em; } }
   </style>
 </head>
 <body>
@@ -135,6 +62,7 @@
 <section class="hero" id="home">
   <h1>Soft & Stylish Printables</h1>
   <p>Beautiful printables for your home, office, and parties — album posters, weekly planners, and birthday invitations!</p>
+  <a class="pinterest-btn" href="https://www.pinterest.com/pin/create/button/?url=https://bonnieandbloomprintables.com/&media=https://bonnieandbloomprintables.com/images/hero-bg.jpg&description=Soft%20%26%20Stylish%20Printables" target="_blank">Save to Pinterest</a>
 </section>
 
 <section class="products" id="products">
@@ -144,7 +72,7 @@
     <div class="product-content">
       <h3>Album Posters</h3>
       <p>Decorate your space with stunning album poster designs.</p>
-      <a href="https://bonnieandbloomprints.etsy.com" target="_blank" onclick="gtag('event','etsy_click');">Buy on Etsy</a>
+      <a href="https://bonnieandbloomprints.etsy.com" target="_blank" onclick="gtag('event','etsy_click');">Shop Now on Etsy</a>
     </div>
   </div>
 
@@ -153,7 +81,7 @@
     <div class="product-content">
       <h3>Weekly Meal + Protein Planners</h3>
       <p>Stay organized and stylish with our weekly planner templates.</p>
-      <a href="https://bonnieandbloomprints.etsy.com" target="_blank" onclick="gtag('event','etsy_click');">Buy on Etsy</a>
+      <a href="https://bonnieandbloomprints.etsy.com" target="_blank" onclick="gtag('event','etsy_click');">Shop Now on Etsy</a>
     </div>
   </div>
 
@@ -162,7 +90,7 @@
     <div class="product-content">
       <h3>Birthday Invitations</h3>
       <p>Create memorable parties with our fun printable invitations.</p>
-      <a href="https://bonnieandbloomprints.etsy.com" target="_blank" onclick="gtag('event','etsy_click');">Buy on Etsy</a>
+      <a href="https://bonnieandbloomprints.etsy.com" target="_blank" onclick="gtag('event','etsy_click');">Shop Now on Etsy</a>
     </div>
   </div>
 
